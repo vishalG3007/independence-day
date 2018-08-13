@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+}
+li{
+    height: 33vh;
+    width: 100vw;
+}
+#orange,#white,#green{
+    height: 100%;
+}
+#orange{
+    background-color:#F9690E;
+}
+#green{ 
+    background-color:#1E824C;
+}
+#white{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #446CB3;
+    text-shadow: 0 0 5px black;
+}
+.name{
+    z-index: +10;  
+}
